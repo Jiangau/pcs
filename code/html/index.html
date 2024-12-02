@@ -1,0 +1,31 @@
+{%  extends "base.html" %}
+{% load static %}
+
+
+{% block title %}
+    Home - Plastic Collection System
+{% endblock %}
+
+{% block linkrel %}
+    <link rel="stylesheet" href="{% static 'css/home-styles.css' %}">
+{% endblock %}
+<!DOCTYPE html>
+
+{% block content %}
+
+
+    <header id="marketplace" class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center text-white">
+                    <h1 class="fw-bold display-4">HỆ THỐNG THU GOM RÁC THẢI</h1>
+                    <p class="lead">HÀNH ĐỘNG NHỎ - Ý NGHĨA LỚN</p>
+                    <button class="btn btn-primary btn-lg me-3" data-bs-toggle="modal" data-bs-target="#sellModal">Bán Phế Liệu</button>
+                    <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#buyModal">Mua Phế Liệu</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+{% endblock %}
+   
