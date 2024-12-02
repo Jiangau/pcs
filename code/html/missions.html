@@ -1,0 +1,107 @@
+{%  extends "base.html" %}
+{% load static %}
+
+
+{% block title %}
+    Home - Missions
+{% endblock %}
+
+{% block linkrel %}
+    <link rel="stylesheet" href="{% static 'css/home-styles.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+{% endblock %}
+<!DOCTYPE html>
+
+{% block content %}
+
+
+    <header id="marketplace" class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center text-white">
+                    <h1 class="fw-bold display-4">SỨ MỆNH</h1>
+                    <p class="lead">MANG MỘT MÀU XANH
+                    </p>
+                 
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="responsive-container-block bigContainer">
+      <div class="responsive-container-block Container">
+        <div class="imgContainer">
+          <img class="blueDots" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw3.svg">
+          <img class="mainImg" src="https://www.cleanlink.com/resources/editorial/2023/29913-recycle-sstock-2103583127.jpg">
+        </div>
+        <div class="responsive-container-block textSide">
+          <p class="text-blk heading">
+            Sứ Mệnh Mang Một Màu Xanh
+          </p>
+          <p class="text-blk subHeading">
+            ExtraGreen, một hệ thống mua bán các phế liệu chưa được quan tâm đúng mực. 
+            Xử lý rác thải tại nguồn là một trong những hành động cơ bản nhất, đơn giản nhất để bước đầu giải 
+            bài toán nhức óc về bảo vệ môi trường. Các mục tiêu ExtraGreen hướng đến là:
+          </p>
+          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+            <div class="cardImgContainer">
+              <i class="fa fa-leaf" style="font-size:36px;color:white"></i>
+            </div>
+            <div class="cardText">
+              <p class="text-blk cardHeading">
+                Nâng cao ý thức cộng đồng về phân loại rác thải tại nguồn.
+              </p>
+              <p class="text-blk cardSubHeading">
+                Tạo thói quen sử dụng và xử lý rác thải nhựa một cách có trách nhiệm, giảm thiểu tác động tiêu cực đến môi trường.
+              </p>
+            </div>
+          </div>
+          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+            <div class="cardImgContainer">
+              <i class="fa fa-leaf" style="font-size:36px;color:white"></i>
+            </div>
+            <div class="cardText">
+              <p class="text-blk cardHeading">
+                Xây dựng một hệ thống thu gom và tái chế hiệu quả
+              </p>
+              <p class="text-blk cardSubHeading">
+                Phát triển một website sử dụng nền tảng Django giúp kết nối người dân, các điểm thu gom trung gian và các cơ sở tái chế.
+              </p>
+            </div>
+          </div>
+          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+            <div class="cardImgContainer">
+              <i class="fa fa-leaf" style="font-size:36px;color:white"></i>
+            </div>
+            <div class="cardText">
+              <p class="text-blk cardHeading">
+                Đóng giúp vào việc giảm thiểu ô nhiễm môi trường
+              </p>
+              <p class="text-blk cardSubHeading">
+                Tận dụng các sản phẩm tái chế để giảm áp lực khai thác tài nguyên thiên nhiên.
+              </p>
+            </div>
+          </div>
+          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+            <div class="cardImgContainer">
+              <i class="fa fa-leaf" style="font-size:36px;color:white"></i>
+            </div>
+            <div class="cardText">
+              <p class="text-blk cardHeading">
+                Góp phần xây dựng một xã hội bền vững
+              </p>
+              <p class="text-blk cardSubHeading">
+                Nơi mà phân loại và tái chế rác thải trở thành một phần không thể thiếu trong đời sống hằng ngày. 
+              </p>
+            </div>
+          </div>
+          <a href="/">
+            <button class="explore">
+              Khám phá ngay
+            </button>
+          </a>
+        </div>
+        <img class="redDots" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/cw3.svg">
+      </div>
+    </div>
+{% endblock %}
